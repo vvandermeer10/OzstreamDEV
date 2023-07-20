@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 20, 2023 at 07:32 PM
+-- Generation Time: Jul 20, 2023 at 07:35 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.0.28
 
@@ -32,6 +32,19 @@ CREATE TABLE `test table one` (
   `vvvvvf` int(11) NOT NULL,
   `vvvvj` int(11) NOT NULL,
   `vvvvfg` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `this_is_a_new_table_tert`
+--
+
+CREATE TABLE `this_is_a_new_table_tert` (
+  `Test 1` int(11) NOT NULL,
+  `test 2` int(11) NOT NULL,
+  `test 3` int(11) NOT NULL,
+  `test 4` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 COMMIT;
 
